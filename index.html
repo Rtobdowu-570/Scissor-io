@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Scissor is a URL shortening service that helps you optimize your online experience with advanced features like custom links, QR codes, and analytics.">
+        <title>Scissor</title>
+        <link rel="stylesheet" href="/Css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <header class="container">
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="/Img/Logo.jpeg" alt="Scissor Logo">
+            </div>
+            <ul class="left-menu" id="left-menu">
+                <li><a href="#">My URLs</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <a href="#" class="right cta-btn">Try for free</a>
+        </nav>
+
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>Optimize your online experience with our advanced <span class="url-span">URL shortening</span> solution</h1>
+                <p>Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.</p>
+                <div class="hero-link">
+                    <a href="#" class="cta-btn hero">Sign Up</a>
+                    <a href="#" class="learn">Learn more</a>
+                </div>
+            </div>
+
+            <div class="hero-info">
+                <svg width="768" height="224" viewBox="0 0 768 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.25" y="0.25" width="767.5" height="223.5" rx="23.75" fill="#FEFEFE" fill-opacity="0.1"/>
+                    <rect x="0.25" y="0.25" width="767.5" height="223.5" rx="23.75" stroke="#005AE2" stroke-width="0.5"/>
+                    <path d="M110 63.3333H120C122.189 63.3333 124.356 63.7643 126.378 64.6019C128.4 65.4395 130.237 66.6672 131.785 68.2148C133.333 69.7624 134.56 71.5998 135.398 73.6219C136.236 75.644 136.667 77.8112 136.667 79.9999C136.667 82.1886 136.236 84.3559 135.398 86.378C134.56 88.4001 133.333 90.2374 131.785 91.785C130.237 93.3327 128.4 94.5603 126.378 95.3979C124.356 96.2355 122.189 96.6666 120 96.6666H110M90 96.6666H80C77.8113 96.6666 75.644 96.2355 73.6219 95.3979C71.5998 94.5603 69.7625 93.3327 68.2149 91.785C65.0893 88.6594 63.3333 84.4202 63.3333 79.9999C63.3333 75.5796 65.0893 71.3404 68.2149 68.2148C71.3405 65.0892 75.5797 63.3333 80 63.3333H90" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M86.6667 80H113.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M182 63.3333H192C194.189 63.3333 196.356 63.7643 198.378 64.6019C200.4 65.4395 202.237 66.6672 203.785 68.2148C205.333 69.7624 206.56 71.5998 207.398 73.6219C208.236 75.644 208.667 77.8112 208.667 79.9999C208.667 82.1886 208.236 84.3559 207.398 86.378C206.56 88.4001 205.333 90.2374 203.785 91.785C202.237 93.3327 200.4 94.5603 198.378 95.3979C196.356 96.2355 194.189 96.6666 192 96.6666H182M162 96.6666H152C149.811 96.6666 147.644 96.2355 145.622 95.3979C143.6 94.5603 141.763 93.3327 140.215 91.785C137.089 88.6594 135.333 84.4202 135.333 79.9999C135.333 75.5796 137.089 71.3404 140.215 68.2148C143.34 65.0892 147.58 63.3333 152 63.3333H162" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M158.667 80H185.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M254 63.3333H264C266.189 63.3333 268.356 63.7643 270.378 64.6019C272.4 65.4395 274.237 66.6672 275.785 68.2148C277.333 69.7624 278.56 71.5998 279.398 73.6219C280.236 75.644 280.667 77.8112 280.667 79.9999C280.667 82.1886 280.236 84.3559 279.398 86.378C278.56 88.4001 277.333 90.2374 275.785 91.785C274.237 93.3327 272.4 94.5603 270.378 95.3979C268.356 96.2355 266.189 96.6666 264 96.6666H254M234 96.6666H224C221.811 96.6666 219.644 96.2355 217.622 95.3979C215.6 94.5603 213.763 93.3327 212.215 91.785C209.089 88.6594 207.333 84.4202 207.333 79.9999C207.333 75.5796 209.089 71.3404 212.215 68.2148C215.34 65.0892 219.58 63.3333 224 63.3333H234" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M230.667 80H257.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M304 79C303.448 79 303 79.4477 303 80C303 80.5523 303.448 81 304 81V79ZM344 80L334 74.2265V85.7735L344 80ZM304 81H335V79H304V81Z" fill="#005AE2"/>
+                    <path d="M414 63.3333H424C426.189 63.3333 428.356 63.7643 430.378 64.6019C432.4 65.4395 434.237 66.6672 435.785 68.2148C437.333 69.7624 438.56 71.5998 439.398 73.6219C440.236 75.644 440.667 77.8112 440.667 79.9999C440.667 82.1886 440.236 84.3559 439.398 86.378C438.56 88.4001 437.333 90.2374 435.785 91.785C434.237 93.3327 432.4 94.5603 430.378 95.3979C428.356 96.2355 426.189 96.6666 424 96.6666H414M394 96.6666H384C381.811 96.6666 379.644 96.2355 377.622 95.3979C375.6 94.5603 373.763 93.3327 372.215 91.785C369.089 88.6594 367.333 84.4202 367.333 79.9999C367.333 75.5796 369.089 71.3404 372.215 68.2148C375.34 65.0892 379.58 63.3333 384 63.3333H394" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M390.667 80H417.333" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>             
+            </div>
+        </section>
+        
+        <div class="svg-section">
+            <svg width="1440" height="93" viewBox="0 0 1440 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M201.516 9.70664C217.021 3.29808 233.634 0 250.411 0H1186.9C1203.48 0 1219.89 3.21974 1235.24 9.48037L1440 93H0L201.516 9.70664Z" fill="#F8F7F7"/>
+                <g filter="url(#filter0_d_1_136)">
+                <ellipse cx="734" cy="44.5" rx="478" ry="24.5" fill="url(#paint0_linear_1_136)" fill-opacity="0.7" shape-rendering="crispEdges"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_1_136" x="252" y="20" width="964" height="57" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.0705882 0 0 0 0 0.141176 0 0 0 0 0.34902 0 0 0 0.35 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_136"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_136" result="shape"/>
+                </filter>
+                <linearGradient id="paint0_linear_1_136" x1="734" y1="20" x2="734" y2="69" gradientUnits="userSpaceOnUse">
+                <stop offset="0.106755" stop-color="#E2E9F0"/>
+                <stop offset="0.440102" stop-color="#DCE4EB"/>
+                <stop offset="1" stop-color="#E2E9F0" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <div class="brief-info">
+            <div class="brief-text">
+              <h1>One Stop. Four <span class="blue">Possibilities</span>.</h1>
+            </div>
+            <div class="brief-flex">
+                <div class="brief-item">
+                    <h1>3M</h1>
+                    <p>Active users</p>
+                </div>
+
+                <div class="brief-item">
+                    <h1>60M</h1>
+                    <p>Links & QR codes created</p>
+                </div>
+
+                <div class="brief-item">
+                    <h1>1B</h1>
+                    <p>Clicked & Scanned connections</p>
+                </div>
+
+                <div class="brief-item">
+                    <h1>300K</h1>
+                    <p>App integrations</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="feature">
+        <div class="feature-text">
+            <h1>Why choose <span class="blue">Scissors</span></h1>
+            <p>
+                Scissors is the hub of everything that has to do with your link management. We shorten your URLs, allow you creating custom ones for your personal, business, event usage. Our swift QR code creation, management and usage tracking with advance analytics for all of these is second to none.</p>
+        </div>
+        <div class="feature-flex">
+            <div class="feature-item">
+                <svg width="709" height="220" viewBox="0 0 709 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_200)">
+                    <path d="M31.1 23H34.1C34.7566 23 35.4068 23.1293 36.0134 23.3806C36.6201 23.6319 37.1712 24.0002 37.6355 24.4645C38.0998 24.9288 38.4681 25.48 38.7194 26.0866C38.9707 26.6932 39.1 27.3434 39.1 28C39.1 28.6566 38.9707 29.3068 38.7194 29.9134C38.4681 30.52 38.0998 31.0712 37.6355 31.5355C37.1712 31.9998 36.6201 32.3681 36.0134 32.6194C35.4068 32.8707 34.7566 33 34.1 33H31.1M25.1 33H22.1C21.4434 33 20.7932 32.8707 20.1866 32.6194C19.58 32.3681 19.0288 31.9998 18.5645 31.5355C17.6268 30.5979 17.1 29.3261 17.1 28C17.1 26.6739 17.6268 25.4021 18.5645 24.4645C19.5022 23.5268 20.7739 23 22.1 23H25.1" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.1 28H32.1" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                </svg>
+            </div>
+
+            <div class="feature-item">
+                <svg width="709" height="220" viewBox="0 0 709 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.8859 19.0676H18.8859V26.0676H25.8859V19.0676Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M36.8859 19.0676H29.8859V26.0676H36.8859V19.0676Z" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M36.8859 30.0676H29.8859V37.0676H36.8859V30.0676Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M25.8859 30.0676H18.8859V37.0676H25.8859V30.0676Z" stroke="#005AE2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="28.1" cy="28" r="28" fill="#3284FF" fill-opacity="0.13"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="pricing-top">     
+            <h1>A <span class="blue">Price perfect </span>for your needs</h1>
+            <p>From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.</p>
+        </div>
+
+        <div class="pricing-bottom">
+            <div class="pricing-item">
+                <div class="pricing-text">
+                    Basic
+                </div>
+                <h2>Free</h2>
+                <p>Free plan for all users</p>
+                <ul>
+                    <li>Unlimited URL for all users</li>
+                    <li>Basic Link Analytics</li>
+                    <li>Customizable Short Links</li>
+                    <li>Standard Support</li>
+                    <li>Ad-supported</li>
+                </ul>
+            </div>
+
+            <div class="pricing-item scale">
+                <div class="pricing-text">
+                    Professional
+                </div>
+                <h2>$15/month</h2>
+                <p>Ideal for business creators</p>
+                <ul>
+                    <li>Enhanced Link Analytics</li>
+                    <li>Custom Branded Domains</li>
+                    <li>Advanced Link Customizable</li>
+                    <li>Priority Support</li>
+                    <li>Ad-free Experience</li>
+                </ul>
+            </div>
+
+            <div class="pricing-item">
+                <div class="pricing-text">
+                    Teams
+                </div>
+                <h2>$25/month</h2>
+                <p>Share with up to 10  users</p>
+                <ul>
+                    <li>Team Collaboration</li>
+                    <li>User Roles and Permissions</li>
+                    <li>Enhanced Security</li>
+                    <li>Api Access</li>
+                    <li>Dedicated Acount Manager</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pricing-cta">
+            <a href="#" class="button blue">Get Custom Pricing</a>
+            <a href="#" class="button white">Select Pricing</a>
+        </div>
+    </section>
+
+    <section class="form">
+        <form action="#" class="form-input">
+            <label for="url">Paste URL here:</label>
+            <input type="text" id="url" name="url" placeholder="Paste URL here" required class="input">
+
+            <div class="select">
+                <label for="domain">Choose Domain:</label>
+                <select id="domain" name="domain" required class="domain">
+                    <option value="">Select Domain</option>
+                    <option value=".net">.net</option>
+                    <option value=".com">.com</option>
+                    <option value=".org">.org</option>
+                    <option value=".io">.io</option>
+                    <option value=".edu">.edu</option>
+                    <option value=".gov">.gov</option>
+                    <option value=".co">.co</option>
+                </select>
+
+                <input type="text" id="alias" name="alias" placeholder="Type alias here" required class="alias">
+            </div> 
+            <input type="submit" value="Trim URL" class="white submit">
+            <p>By clicking TrimURL, i agree to term of Service, Privacy Policy and use of Cookies</p>
+        </form>
+    </section>
+
+    <section class="faq">
+        <div class="faq-top">
+            <h1>FAQs</h1>
+        </div>
+
+        <div class="faq-bottom">
+            <div class="faq-item">
+                <h3>How does URL shortening work?<i class="fas fa-minus"></i></h3>
+                <p>URL shortening is a process of converting a long URL into a shorter, more manageable version. This can help you save time, make your content more engaging, and promote your brand.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is it necessary to create an account to use the URL shortening service?<i class="fas fa-plus"></i></h3>
+            </div>
+
+            <div class="faq-item">
+                <h3>Are the shortened links permanent? Will they expire?<i class="fas fa-plus"></i></h3>
+            </div>
+
+            <div class="faq-item">
+                <h3>Are there any limitations on the number of URLs I can shorten?<i class="fas fa-plus"></i></h3>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I customize the shortened URLs to reflect my brand or content?<i class="fas fa-plus"></i></h3>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I track the performance of my shortened URLs?<i class="fas fa-plus"></i></h3>
+            </div>
+
+            <div class="faq-item">
+                <h3>What is a QR code and what can it do?<i class="fas fa-plus"></i></h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="sign-in">
+        <h2>Revolutionizing Link Optimization</h2>
+        <a href="#" class="button white">Get Started</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="/Img/logo2.jpeg" alt="Scissors" />
+            </div>
+
+            <div class="footer-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-item">
+                <h3>Why Scissor?</h3>
+                <ul>
+                    <li>Scissor 101</li>
+                    <li>Integration and API</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Solutions</h3>
+                <ul>
+                    <li>Social Media</li>
+                    <li>Digital Marketing</li>
+                    <li>Custom Service</li>
+                    <li>For Developers</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Products</h3>
+                <ul>
+                    <li>Link Management</li>
+                    <li>QR Codes</li>
+                    <li>Link-in-bio</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Company</h3>
+                <ul>
+                    <li>About Scissor</li>
+                    <li>Careers</li>
+                    <li>Partners</li>
+                    <li>Press</li>
+                    <li>Contact</li>
+                    <li>Reviews</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Blog</li>
+                    <li>Resource Library</li>
+                    <li>Developers</li>
+                    <li>App Connections</li>
+                    <li>Support</li>
+                    <li>Trust Center</li>
+                    <li>Browser Extension</li>
+                    <li>Mobile Apps</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Features</h3>
+                <ul>
+                    <li>Branded Links</li>
+                    <li>Mobile links</li>
+                    <li>Campaign</li>
+                    <li>Management &</li>
+                    <li>Analytics</li>
+                    <li>QR Code generation</li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Legal</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Contact Support</li>
+                    <li>Term of Service</li>
+                    <li>Acceptable use of Policy </li>
+                    <li>Code of Conduct</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="#">Term of Service</a>|
+            <a href="#">Security</a>| 
+            <a href="#">Scissor 2023</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
